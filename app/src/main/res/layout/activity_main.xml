@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.codingquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/a_blue_night_sky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/blue_background" />
+
+            <ImageView
+                android:contentDescription="@string/android_icon_with_saturn_and_stars_in_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/quiz_android_on_mars" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/android_coding_quiz"
+            android:textAlignment="center"
+            android:textColor="#26a69a"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingBottom="30dp"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/answer_the_questions_that_follow_as_best_you_can_using_the_knowledge_you_gained_from_the_android_basics_course_good_luck"
+            android:textColor="@color/grey_text" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/question_1"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/why_does_quot_string_quot_have_a_capital_letter_in_java"
+            android:textColor="@color/grey_text" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/it_s_a_variable"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/it_s_a_primitive_value"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/it_s_an_object"
+                android:textColor="@color/grey_text" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingTop="@dimen/text_padding_top"
+            android:text="@string/question_2"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/which_of_these_words_should_you_not_use_as_a_name_in_java"
+            android:textColor="@color/grey_text" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/xcontinue"
+            android:textColor="@color/grey_text" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/loop"
+            android:textColor="@color/grey_text" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/xswitch"
+            android:textColor="@color/grey_text" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/close"
+            android:textColor="@color/grey_text" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/xfloat"
+            android:textColor="@color/grey_text" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingTop="@dimen/text_padding_top"
+            android:text="@string/question_3"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/you_want_to_use_a_variable_to_store_the_number_of_coffees_that_someone_has_ordered_the_variable_should_have_the_words_quot_number_quot_quot_of_quot_quot_coffees_quot_and_quot_ordered_quot_written_in_camel_case_write_your_variable_name_below"
+            android:textColor="@color/grey_text" />
+
+        <EditText
+            android:id="@+id/question3Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_padding_left"
+            android:ems="10"
+            android:hint="@string/variable_name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingTop="@dimen/text_padding_top"
+            android:text="@string/question_4"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/in_android_xml_which_view_layout_should_you_use_when_your_content_is_too_big_to_fit_on_the_screen"
+            android:textColor="@color/grey_text" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/linearlayout"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/scrollview"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/relativelayout"
+                android:textColor="@color/grey_text" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingTop="@dimen/text_padding_top"
+            android:text="@string/question_5"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/which_hex_code_should_you_use_to_represent_black"
+            android:textColor="@color/grey_text" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/_555555"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/_000000"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/ffffff"
+                android:textColor="@color/grey_text" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingTop="@dimen/text_padding_top"
+            android:text="@string/question_6"
+            android:textColor="#ffa000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_italic"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:paddingStart="@dimen/text_padding_left"
+            android:paddingEnd="@dimen/text_padding_right"
+            android:text="@string/if_you_wanted_to_store_the_number_1_25_in_a_primitive_type_which_of_the_following_types_could_you_use"
+            android:textColor="@color/grey_text" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/xint"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/xboolean"
+                android:textColor="@color/grey_text" />
+
+            <RadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_padding_left"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/xdouble"
+                android:textColor="@color/grey_text" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/checkAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background_custom"
+            android:fontFamily="@font/lato_black"
+            android:onClick="checkAnswers"
+            android:text="@string/check_your_answers"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

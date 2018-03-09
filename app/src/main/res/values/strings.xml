@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CodingQuiz</string>
+    <string name="android_coding_quiz">ANDROID CODING QUIZ</string>
+    <string name="answer_the_questions_that_follow_as_best_you_can_using_the_knowledge_you_gained_from_the_android_basics_course_good_luck">Answer the questions that follow as best you can using the knowledge you gained from the Android Basics course. Good luck!</string>
+    <string name="question_1">QUESTION 1</string>
+    <string name="why_does_quot_string_quot_have_a_capital_letter_in_java">Why does \"String\" have a capital letter in Java?</string>
+    <string name="it_s_a_variable">It\'s a variable</string>
+    <string name="it_s_a_primitive_value">It\'s a primitive value</string>
+    <string name="a_blue_night_sky">a blue night sky</string>
+    <string name="android_icon_with_saturn_and_stars_in_background">Android icon with Saturn and stars in background</string>
+    <string name="it_s_an_object">It\'s an object</string>
+    <string name="question_2">QUESTION 2</string>
+    <string name="which_of_these_words_should_you_not_use_as_a_name_in_java">Which of these words should you NOT use as a name in Java?</string>
+    <string name="xcontinue">continue</string>
+    <string name="loop">loop</string>
+    <string name="xswitch">switch</string>
+    <string name="close">close</string>
+    <string name="xfloat">float</string>
+    <string name="question_3">QUESTION 3</string>
+    <string name="you_want_to_use_a_variable_to_store_the_number_of_coffees_that_someone_has_ordered_the_variable_should_have_the_words_quot_number_quot_quot_of_quot_quot_coffees_quot_and_quot_ordered_quot_written_in_camel_case_write_your_variable_name_below">You want to use a variable to store the number of coffees that someone has ordered. The variable should have the words \"number\", \"of\", \"coffees\" and \"ordered\" written in camel case. Write your variable name below.</string>
+    <string name="variable_name">Variable name</string>
+    <string name="question_4">QUESTION 4</string>
+    <string name="in_android_xml_which_view_layout_should_you_use_when_your_content_is_too_big_to_fit_on_the_screen">In Android XML, which view/layout should you use when your content is too big to fit on the screen?</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="scrollview">ScrollView</string>
+    <string name="relativelayout">RelativeLayout</string>
+    <string name="question_5">QUESTION 5</string>
+    <string name="which_hex_code_should_you_use_to_represent_black">Which hex code should you use to represent black?</string>
+    <string name="_555555">#555555</string>
+    <string name="_000000">#000000</string>
+    <string name="ffffff">#FFFFFF</string>
+    <string name="question_6">QUESTION 6</string>
+    <string name="if_you_wanted_to_store_the_number_1_25_in_a_primitive_type_which_of_the_following_types_could_you_use">If you wanted to store the number 1.25 in a primitive type, which of the following types could you use?</string>
+    <string name="xint">int</string>
+    <string name="xboolean">boolean</string>
+    <string name="xdouble">double</string>
+    <string name="check_your_answers">check your answers</string>
+
+</resources>
